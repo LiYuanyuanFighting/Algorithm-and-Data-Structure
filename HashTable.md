@@ -22,6 +22,8 @@ Read more: http://javarevisited.blogspot.com/2011/02/how-hashmap-works-in-java.h
 **Resize**  
 [Resize a hashtable](http://www.vias.org/javacourse/chap19_08.html)  
 load factor: the average number of entries per list. If it gets too high, we have to resize the table.  
+The load factor is a measure of how full the hash table is allowed to get before its capacity is automatically increased.   
+Generally, the default load factor (.75) offers a good tradeoff between time and space costs. Higher values decrease the space overhead but increase the time cost to look up an entry (which is reflected in most Hashtable operations, including get and put).  
 
 **Good and detailed explanation**  
 [How does a HashMap work in JAVA](http://coding-geek.com/how-does-a-hashmap-work-in-java/)  
