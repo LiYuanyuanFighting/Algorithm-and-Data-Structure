@@ -31,3 +31,4 @@ Each time you add a new key/value in your Map with put(…), the function checks
 
 The size of the map: it represents the number of entries in the HashMap. This value is updated each time an Entry is added or removed.
 A threshold: it’s equal to (capacity of the inner array) * loadFactor and it is refreshed after each resize of the inner array  
+[hashtable source code](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/6-b14/java/util/Hashtable.java) . 
